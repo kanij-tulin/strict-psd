@@ -1,0 +1,391 @@
+@media(max-width:575px) {
+
+    /* navbar-start */
+    .image {
+        width: 107px;
+        margin: 0;
+    }
+
+    #nav_area {
+        text-align: right;
+    }
+
+    #nav_area li a::after {
+        left: 0;
+    }
+
+    #nav_area li a:hover::after {
+        width: 10%;
+    }
+
+    #nav_area li a {
+        font-size: 17px;
+        text-align: left;
+    }
+
+    #nav_position.sticky {
+        background: rgb(9, 75, 146);
+
+    }
+
+    /* navbar-end */
+
+    /* banner-start */
+    #banner {
+        padding: 100px 0;
+    }
+
+    .text h1 {
+        font-size: 48px;
+    }
+
+    .text h1::before {
+        left: 34px;
+        width: 83%;
+        top: 67px;
+
+    }
+
+    .text p {
+        font-size: 14px;
+
+    }
+
+    .banner_text .button {
+        width: 123px;
+        height: 47px;
+        font-size: 13px;
+
+    }
+
+    /* banner-end */
+
+    /* design-start */
+    .text h2 {
+        font-size: 26px;
+
+    }
+
+    .icon_main .image {
+        width: 68px;
+        height: 70px;
+    }
+
+    .icon_main .image img {
+        width: 32%;
+        height: 65%;
+    }
+
+    .icon_main .mobile_text h4 {
+        font-size: 19px;
+
+    }
+
+    .icon_main .mobile_text p {
+        font-size: 14px;
+    }
+
+    /* design-end */
+
+    /* galleryworld-start */
+    #gallery_world {
+        padding: 60px 0;
+    }
+
+    .heading h2 {
+        font-size: 22px;
+    }
+
+    .galllery_image_main {
+        margin-bottom: 20px;
+    }
+
+    .galllery_image_main .image {
+        width: 295px;
+        height: 216px;
+        margin: 0 auto;
+
+    }
+
+    /* galleryworld-end */
+
+    /* form-start */
+    .heading_area h2 {
+        font-size: 23px;
+
+    }
+
+    .from_main input {
+        width: 285px;
+        height: 39px;
+
+    }
+
+    .from_item input {
+        width: 277px;
+        height: 115px;
+    }
+
+    .from_item_btn {
+        padding: 24px;
+        width: 112px;
+
+    }
+
+    /* form-end */
+
+    /* fotter-start */
+
+    .fotter_icon_main {
+        gap: 17px;
+    }
+
+    .facebook {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+
+    }
+
+    .twitter {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+
+    }
+
+    .gogle {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+
+    }
+
+    .linkdin {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+
+    }
+
+    /* fotter-end */
+
+    /* navbar-start */
+    /* navbar-end */
+}
+
+@media(min-width:575px) and (max-width:766.98px) {
+
+    /*nav-start  */
+    #nav_area li a:hover::after {
+        width: 14% !important;
+
+    }
+
+    /*nav-end  */
+
+    /* banne-start */
+    #banner {
+        padding: 150px 0;
+
+    }
+
+    .text h1 {
+        font-size: 56px;
+    }
+
+    .text h1::before {
+        top: 78px;
+        left: 76px;
+        width: 74%;
+
+
+    }
+
+    .text p {
+
+        font-size: 11px;
+
+    }
+    .banner_text .button {
+        width: 144px;
+        height: 38px;
+        font-size: 13px;
+       
+    }
+
+    /* banner=end */
+    /* design=start */
+    .text h2 {
+        font-size: 24px;
+    }
+
+    /* design=end */
+    /* icon=start */
+    .icon_main .image {
+        width: 50px;
+        height: 50px;
+    }
+    .icon_main .mobile_text h4 {
+        font-size: 17px;
+    }
+    .icon_main .mobile_text p {
+        font-size: 12px;
+    }
+    /* icon=end */
+
+    /* gallery=start */
+    #gallery_world {
+        padding: 60px 0;
+    }
+    .heading h2 {
+        font-size: 24px;
+       
+    }
+    .galllery_image_main .image {
+        margin: 0 auto;
+        margin-bottom: 26px;
+    }
+
+    /* gallery=end */
+    /* from=start */
+    .heading_area h2 {
+        font-size: 35px;
+       
+    }
+    .heading_area h2 {
+        font-size: 35px;
+       
+    }
+    .from_main input {
+        width: 350px;
+        height: 50px;
+    }
+    .from_item input {
+        width: 350px;
+        height: 106px;
+       
+    }
+    .from_item_btn {
+        padding: 25px;
+        width: 114px;
+        height: 5px;
+      
+    }
+    /* from=end */
+    /* banner=start */
+
+    /* banner=end */
+
+}
+
+@media(min-width:767px) and (max-width:991.98px) {
+    /* nav-start */
+    #nav_area li a:hover::after {
+        width: 10%;
+    
+    }
+    .text h1 {
+        font-size: 51px;
+       
+    }
+    .text h1::before {
+        top: 78px;
+        left: 87px;
+        width: 73%;
+       
+    }
+    .text p {
+        font-size: 13px;
+    
+    }
+    .banner_text .button {
+        width: 143px;
+        height: 36px;
+        font-size: 13px;
+
+    }
+    /* nav-end */
+
+    /* icon-start */
+    .icon_main .image {
+        width: 70px;
+        height: 70px;
+    }
+    /* icon-end */
+    /* gallery-start */
+    .heading h2 {
+        font-size: 34px;
+        
+    }
+    .galllery_image_main .image {
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    /* gallery-end */
+    /* nav-start */
+    /* nav-end */
+    /* nav-start */
+    /* nav-end */
+}
+
+@media(min-width:992px) and (max-width:1199.98px) {
+    /* nav-start */
+    #nav_area li a:hover::after {
+        width: 8%;
+    }
+    /* nav-end */
+
+    /* banner-start */
+    #banner {
+        padding: 150px 0;
+
+    }
+    .text h1 {
+        font-size: 40px;
+    
+    }
+    .text h1::before {
+        top: 67px;
+        left: 58px;
+        width: 73%;
+       
+    }
+    .text p {
+        font-size: 13px;
+   
+    }
+    /* banner-end */
+    /* icon-start */
+    .icon_main .image {
+        width: 70px;
+        height: 70px;
+     
+    }
+    .icon_main .mobile_text p {
+        font-size: 15px;
+    
+    }
+    /* icon-end */
+    /* gallery-start */
+    .galllery_image_main .image {
+        width: 250px;
+        height: 250px;
+     
+    }
+    /* gallery-end */
+    /* from-start */
+    .from_main input {
+        width: 400px;
+        height: 50px;
+    }
+    .from_item input {
+        width: 450px;
+        height: 123px;
+    }
+    /* from-end */
+    /* banner-start */
+    /* banner-end */
+}
+
+@media(min-width:1200px) and (max-width:1399.98px) {}
